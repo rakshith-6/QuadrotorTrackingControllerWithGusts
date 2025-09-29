@@ -1,4 +1,5 @@
 from scipy.integrate import solve_ivp
+
 from dynamics import quadrotor_dynamics
 
 def run_simulation(trajectory, initial_state, params, controllers, gusts_on, dt):

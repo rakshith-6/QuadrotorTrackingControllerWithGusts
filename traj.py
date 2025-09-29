@@ -1,5 +1,5 @@
 import numpy as np
-import scipy.interpolate as interp1d
+from scipy.interpolate import interp1d
 
 # CIRCLE TRAJECTORY
 
