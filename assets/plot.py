@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def post_process_data(sol, trajectory, params, controllers, dt):
     m, g = params['m'], params['g']
     phi_des_hist, theta_des_hist = [], []
